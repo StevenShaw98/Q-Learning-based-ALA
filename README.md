@@ -1,6 +1,6 @@
 # Q-Learning-based-ALA
 
-Q-Learning Driven Artificial Lemming Algorithm with Elite Pool and Dynamic Vertical Crossover Strategy: A Case Study in Wind Power Forecasting (Under Consideration for Publication)
+Q-Learning Driven Artificial Lemming Algorithm with Elite Pool and Dynamic Vertical Crossover Strategy: A Case Study in Wind Power Forecasting
 
 Artificial Lemming Algorithm (ALA) is an emerging meta-heuristic technique that has shown favorable applicability in various engineering applications. However, the original ALA still suffers from parameter sensitivity, premature convergence to local optima, and slow convergence when handling high-dimensional complex problems. To overcome these inherent limitations, this paper proposes a Q-learning-driven enhanced Artificial Lemming Algorithm (QEALA), which innovatively integrates three core strategies: 
 (1) Q-learning enables adaptive switching between four search behaviors in different optimization tasks, establishing a more robust exploration-exploitation balance. 
@@ -9,5 +9,3 @@ Artificial Lemming Algorithm (ALA) is an emerging meta-heuristic technique that 
 The optimization performance of QEALA is comprehensively evaluated against 14 state-of-the-art algorithms on the IEEE CEC2017 and CEC2022 benchmark suites, as well as 22 constrained real-world engineering problems. Experimental results reveal that QEALA demonstrates significant superiority in both solution accuracy and convergence speed, obtaining optimal solutions on 62.07% of CEC2017 functions (30-dimensional), 58.33\% of CEC2022 functions (20-dimensional), and 77.27% of engineering problems, respectively. Furthermore, QEALA is applied to construct a hybrid deep learning model QEALA-TCN-BiLSTM for wind power forecasting. Compared to mainstream deep learning models, the proposed model achieves lower prediction errors in 8-step-ahead forecasting with MSE=0.0115, R\textsuperscript{2}=0.8714, MAE=0.0687, and RMSE=0.1074. These findings highlight the promising potential of QEALA in tackling more challenging real-world engineering optimization problems.
 
 Source code will be uploaded after the paper is published.
-
-@ARTICLE{QEALA2025, author={Yaning Xiao and Yueqin Yin and Rui Zhong and Adam Slowik and Huiling Chen}, title={{Q-Learning Driven Artificial Lemming Algorithm with Elite Pool and Dynamic Vertical Crossover Strategy: A Case Study in Wind Power Forecasting}, year={2025} }
